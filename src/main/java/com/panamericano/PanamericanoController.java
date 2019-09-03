@@ -10,6 +10,6 @@ public class PanamericanoController {
 
     @RequestMapping(method = RequestMethod.GET)
     public String index() {
-        return "index";
+        return "panamericano";
     }
 }
